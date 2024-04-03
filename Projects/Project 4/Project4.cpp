@@ -45,7 +45,7 @@ int main() {
     cout << "Enter your choice: ";
     cin >> choice;
 
-    cout << endl;
+    cout << endl << endl;
 
     amount = calculateTotal(choice, itemPrices);
 
