@@ -1,14 +1,3 @@
-/*
-   Class: CMSC140 20082
-   Instructor: Sandro Fouche
-   Project 5
-   Description: Build a Magic Square game
-   Due Date: 12/6/2023
-   I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Nardos W. Hailemariam
-*/
 #include<iostream>
 #include <string>
 #include <iomanip>
@@ -22,7 +11,6 @@ const int MIN = 1;
 const int MAX = 9;
 const int SUM = 15;
 
-const string programmer_name = "Nardos W. Hailemariam", due_date = "December 6, 2023", course_details = "CMSC140 20082";
 const char project_number = '5';
 
 bool isMagicSquare(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size);
