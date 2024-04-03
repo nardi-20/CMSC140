@@ -1,13 +1,3 @@
-//Class: CMSC140 20082
-//Instructor : Sandro Fouche
-	//Project 1
-	//Description : Work out code on mathematical calculations based on flowchart/pseudocode.
-	//Due Date : 09/20/2023
-//I pledge that I have completed the programming assignment independently.
-//I have not copied the code from a student or any source.
-//I have not given my code to any student.
-//Programmer: Nardos W. Hailemariam
-
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -18,8 +8,6 @@ int main() {
 
 	double favorite_number;
 	double number_1, number_2;
-	const string programmer_name="Nardos W. Hailemariam", due_date="September 20, 2023", course_details="CMSC140 20082";
-	string name;
 
 	cout << setprecision(2) << fixed;
 
@@ -84,8 +72,6 @@ int main() {
 	cout << "The decrement of the second number is " << b << "." << endl;
 
 	cout << "Thank you so much for participating! It's been a pleasure to have you. Stay curious!" << endl << endl;
-
-	cout << "Programmer name: " << programmer_name << endl << course_details << endl << "Project #1" << endl << "Due date: " << due_date << endl;
 
 	return 0;
 }
