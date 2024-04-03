@@ -1,14 +1,3 @@
-/*
-Class: CMSC140 22082
-Instructor: Sandro Fouche
-Project 3
-Description: Build Mastermind game using do while, while, and for loops.
-Due Date:10/28/2023
-I pledge that I have completed the programming assignment independently.
-I have not copied the code from a student or any source.
-I have not given my code to any student.
-Print your name here: Nardos W. Hailemariam
-*/
 #include <iostream>
 #include <string>
 
@@ -20,7 +9,6 @@ char getRandomColor() {
 }
 
 int main() {
-	const string programmer_name = "Nardos W. Hailemariam", due_date = "October 28, 2023", course_details = "CMSC140 20082";
 	const char project_number = '3';
 
 	bool WIN = true;
@@ -124,7 +112,6 @@ int main() {
 
 		if (play_again == 'N' || play_again == 'n') {
 		cout << endl << "Thanks for playing, hope to see you back again soon!" << endl << endl;
-		cout << "Programmer name: " << programmer_name << endl << course_details << endl << "Project #" << project_number << endl << "Due date: " << due_date << endl;
 		break;
 		}
 		else {
