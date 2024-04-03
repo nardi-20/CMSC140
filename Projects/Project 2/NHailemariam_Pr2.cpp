@@ -1,15 +1,3 @@
-/*
-Class: CMSC140 22082
-Instructor: Sandro Fouche
-Project 2
-Description: Build menu for selecting movies and restrict choices based movie rating.
-Due Date:10/11/2023
-I pledge that I have completed the programming assignment independently.
-I have not copied the code from a student or any source.
-I have not given my code to any student.
-Print your Name here: Nardos W. Hailemariam
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -17,8 +5,6 @@ Print your Name here: Nardos W. Hailemariam
 using namespace std;
 
 int main() {
-
-	const string programmer_name = "Nardos W. Hailemariam", due_date = "October 11, 2023", course_details = "CMSC140 20082";
 	int count = 1, movie_selection, age, adult_tickets, child_tickets;
 	const int list_width = 30, g=0, pg=7, pg13=13, r=17, nc17=18;
 	const double adult_price = 12.00, child_price = 8.00;
@@ -182,8 +168,6 @@ int main() {
 	}
 
 	cout << "Thank you so much for participating! It's been a pleasure to have you. Stay curious!" << endl << endl;
-
-	cout << "Programmer name: " << programmer_name << endl << course_details << endl << "Project #2" << endl << "Due date: " << due_date << endl;
 
 	return 0;
 }
