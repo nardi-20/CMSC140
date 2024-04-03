@@ -23,7 +23,6 @@ int main() {
 			//-7 is tendered amount less than zero
 			//-8 is total cost greater than tendered amount
 
-
 	cout << "Welcome! Please select a movie you'd like to watch from the list below.\n";
 
 	cout << setw(2) << count++ << ". " << left << "The Suicide Squad (Rated R)\n";
