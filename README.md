@@ -1,8 +1,8 @@
 # CMSC140
 All coded projects from CMSC140 class, written by me.
 
-#Project | #Score | #Notes | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+#Project | #Score | #Notes |
+--- | --- | --- | 
 #1 | 301 | 283 | 
 #2 | 301 | 283 | 
 #3 | 301 | 283 | 
